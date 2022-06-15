@@ -1,0 +1,7 @@
+footer {
+    grid-row: 4 / 5;
+    text-align: center;
+    grid-column: span 3;
+    margin: 50px;
+
+}

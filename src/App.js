@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  HashRouter,
+  Routes, 
+  Route
+} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import styles from './App.module.css';
+// import './components/Home/Home.module.css';
+// import './components/All.css';
+import { Home } from './components';
+import Projects from './Projects.js';
+
+
+
+class App extends React.Component {
+
+  state = {
+    links: {
+      'home': '/portfolio',
+      'projects': '/portfolio/projects/'
+    }
+  }
+
+  render() {
+    return(
+        <HashRouter basename="/">
+          <div>
+            <Routes>
+              <Route path="/" exact element={<Home links={this.state.links}/>} />
+              <Route path="/portfolio/projects" exact element={<Projects links={this.state.links}/>} />
+              {/* <Route path="/blog" exact element={<Blog />} /> */}
+
+            </Routes>
+          </div>
+        </HashRouter>
+
+    );
+  }
+
+
 }
+
+              
 
 export default App;

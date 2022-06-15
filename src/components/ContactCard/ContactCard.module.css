@@ -1,0 +1,26 @@
+.contacts > a > img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+#profileImg {
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    grid-row: 2 / 3;
+}
+
+@media (max-width: 780px) {
+    section {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+}

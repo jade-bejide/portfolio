@@ -1,0 +1,52 @@
+
+.info {
+    grid-column: 2 / 4;
+    margin: 50px;
+    padding: 50px;
+    grid-row: span 2;
+}
+
+span.skills > h2, span.skills > p{
+    font-size: 18px;
+    display: inline;
+}
+
+.btn {
+    all: unset;
+}
+
+.extLink:link, .extLink:visited {
+    text-decoration: none;
+    color: black;
+    padding-left: 3px;
+}
+
+.extLink:hover {
+    color: #d54854;
+}
+
+.btn {
+    display: inline;
+}
+
+
+
+
+@media (max-width: 780px) {
+    .info {
+        grid-row: 2 / 4;
+        grid-column: 2 / 3;
+        text-align: center;
+        margin: 25px;
+        padding: 0px;
+    }
+
+    span.skills > h2, span.skills > p{
+        display: block;
+        margin: 0;
+    }
+
+    div > p {
+        display: inline;
+    }
+}

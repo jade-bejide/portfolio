@@ -1,0 +1,20 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 200fr);
+    grid-template-rows: repeat(3, 200fr);
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+    .projects {
+        grid-template-rows: repeat(3, 200fr);
+    }
+
+    .projectCard {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}

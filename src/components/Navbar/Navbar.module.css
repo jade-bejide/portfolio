@@ -1,0 +1,34 @@
+.navLinks {
+    display: inline;
+    float: right;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+
+.navBtn {
+    all: unset;
+    padding-right: 10px;
+}
+
+.navLink:visited, .navLink:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: white;
+}
+
+
+nav {
+    grid-row: 1 / 2;
+    background-color: #d54854;
+
+}
+
+nav > h1 {
+    padding-left: 15px;
+    display: inline-block;
+    margin: 10px;
+}

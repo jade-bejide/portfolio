@@ -1,0 +1,23 @@
+.navLinks {
+    display: inline;
+    float: right;
+    padding-right: 5px;
+}
+
+nav, footer {
+    grid-column: span 3;
+}
+
+nav {
+    grid-row: 1 / 2;
+}
+
+nav > h1 {
+    padding-left: 15px;
+    display: inline;
+}
+
+footer {
+    grid-row: 4 / 5;
+    text-align: center;
+}
