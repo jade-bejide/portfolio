@@ -9,11 +9,15 @@ import {
 // import './components/Home/Home.module.css';
 // import './components/All.css';
 import { Home } from './components';
-import Projects from './Projects.js';
+import Projects from './projects/Projects.js';
 
 
 
 class App extends React.Component {
+
+  componentDidMount() {
+    document.title = "Home"
+  }
 
   state = {
     links: {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import resume from '../../resources/Jadesola Bejide Resume.pdf';
 import styles from './Navbar.module.css';
 

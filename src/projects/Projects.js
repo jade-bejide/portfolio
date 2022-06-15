@@ -1,10 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import Project from './components/Project/Project';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import Project from '../components/Project/Project';
 
-import { projects } from './resources/githubdata.js';
+import { projects } from '../resources/githubdata.js';
 
 import styles from './Projects.module.css';
 
