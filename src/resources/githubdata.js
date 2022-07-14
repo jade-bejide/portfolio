@@ -1,4 +1,16 @@
 export const projects = [
+        {
+        title: "Ephm3ralMusic",
+        link: "",
+        tech_stack: ["Python", "FastAPI", "MySQL", "JavaScript", "ReactJS", "FetchAPI"],
+        descr: "A social media app which recommends new music to users, based on who they follow, to expand their music taste."
+    },
+    {
+        title: "Conway's Game of Life",
+        link: "https://github.com/jade-bejide/2D-Cellular-Automata",
+        tech_stack: ["C"],
+        descr: "C Implementation of Conway's Game of Life"
+    },
     {
         title: "Ephm3ralMusicAPI",
         link: "https://github.com/jade-bejide/Ephm3ralMusic-API",
@@ -13,8 +25,8 @@ export const projects = [
     },
     {
         title: "Social Recommender System",
-        link: "",
-        tech_stack: ["Python", "MySQL"],
+        link: "https://github.com/jade-bejide/Social-Recommender-System",
+        tech_stack: ["Python", "MySQL", "GuiZero"],
         descr: "A movie recommendation system where collaborative filtering is limited to who a user follows."
     }
     

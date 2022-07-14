@@ -1,0 +1,124 @@
+.navLinks {
+    display: inline;
+    float: right;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+
+.navBtn {
+    all: unset;
+    padding-right: 10px;
+}
+
+.navLink {
+    text-decoration: none;
+}
+
+.navLink:visited, .navLink:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navLink:hover {
+    color: white;
+}
+
+
+nav {
+    grid-row: 1 / 3;
+    background-color: #d54854;
+    width: 100%;
+    top: 0;
+}
+
+nav > h1 {
+    padding-left: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+@media (max-width: 400px) {
+    nav > h1 {
+        font-size: 15px;
+        margin-left: 2px;
+    }
+
+    .navBtn {
+        font-size: 15px;
+        
+    }
+
+    .navLinks {
+        margin-bottom: 10px;
+    }
+}
+
+/* collapse navbar */
+.icon {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .navLink:visited, .navLink:link {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .navLink:hover {
+        color: #474242;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topNav a {
+        display: none;
+    }
+
+    .responsive {
+        color: black;
+    }
+    .topNav a.icon {
+        float: right;
+        display: block;
+        color: black;
+    }
+
+    a.icon:hover {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topNav.responsive {
+        position: relative;
+    }
+
+   .topNav.responsive a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+   }
+
+   .topNav.responsive a.navLink, .topNav.responsive button {
+        float: center;
+        display: block;
+   }
+
+   .topNav.responsive .navLinks {
+        
+        text-align: center;
+        background-color: #d57179;
+        margin: 0 auto;
+        width: 100%;
+        
+   }
+
+   .topNav.responsive .navLink {
+        padding-left: 15px;
+   }
+
+
+}

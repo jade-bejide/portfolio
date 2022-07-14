@@ -6,6 +6,11 @@
     grid-row: span 2;
 }
 
+.descr p {
+    display: inline;
+    font-size: 18px;
+}
+
 span.skills > h2, span.skills > p{
     font-size: 18px;
     display: inline;
@@ -13,6 +18,7 @@ span.skills > h2, span.skills > p{
 
 .btn {
     all: unset;
+    
 }
 
 .extLink:link, .extLink:visited {
@@ -30,15 +36,32 @@ span.skills > h2, span.skills > p{
 }
 
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #292929;
+        color: white;
+    }
 
+    .extLink:link, .extLink:visited {
+        color: white;
+    }
+
+    .extLink:hover {
+        color: #d54854;
+    }
+}
 
 @media (max-width: 780px) {
     .info {
-        grid-row: 2 / 4;
+        grid-row: 2 / 3;
         grid-column: 2 / 3;
         text-align: center;
         margin: 25px;
         padding: 0px;
+    }
+
+    .info {
+        padding: 30px 0 0;
     }
 
     span.skills > h2, span.skills > p{
@@ -48,5 +71,9 @@ span.skills > h2, span.skills > p{
 
     div > p {
         display: inline;
+    }
+
+    .btn {
+        white-space: nowrap;
     }
 }

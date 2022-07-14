@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Navbar from '../components/Navbar/Navbar';
+import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 import Project from '../components/Project/Project';
 
@@ -10,14 +10,10 @@ import styles from './Projects.module.css';
 
 class Projects extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   
 
   componentDidMount() {
-    document.title = "My Projects";
+    document.title = "Projects | Jadesola Bejide";
     this.fillProjects();
   }
 
@@ -27,7 +23,7 @@ class Projects extends React.Component {
         let cards = [];
 
         projects.forEach(r => {
-            cards.push(<Project name={r.title} url={r.link} info={r.descr} tech={r.tech_stack} className={styles.projectCard}/>);
+            cards.push(<Project name={r.title} url={r.link} info={r.descr} tech={r.tech_stack.join(", ")} className={styles.projectCard}/>);
         });
 
         const container = document.getElementById('container');
@@ -39,7 +35,7 @@ class Projects extends React.Component {
   render() {
     return(
         <div className={styles.container}>
-            <Navbar links={this.props.links}/>
+            <Navigation links={this.props.links}/>
             <h1>Projects</h1> 
             <main id="container" className={styles.projects}>
             

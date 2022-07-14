@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Navbar from './components/Navbar/Navbar';
+import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 import Project from './components/Project/Project';
 
@@ -22,7 +22,7 @@ class ProjectDetail extends React.Component {
   render() {
     return(
         <div className={styles.container}>
-            <Navbar links={this.props.links}/>
+            <Navigation links={this.props.links}/>
             <h1>{this.props.name}</h1>
             <span>Details</span>
             <br />

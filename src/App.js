@@ -5,7 +5,7 @@ import {
   Route
 } from 'react-router-dom';
 
-// import styles from './App.module.css';
+import styles from './App.module.css';
 // import './components/Home/Home.module.css';
 // import './components/All.css';
 import { Home } from './components';
@@ -31,8 +31,8 @@ class App extends React.Component {
         <HashRouter basename="/">
           <div>
             <Routes>
-              <Route path="/" exact element={<Home links={this.state.links}/>} />
-              <Route path="/portfolio/projects" exact element={<Projects links={this.state.links}/>} />
+              <Route exact path="/" element={<Home links={this.state.links}/>} />
+              <Route exact path="/projects" element={<Projects links={this.state.links}/>} />
               {/* <Route path="/blog" exact element={<Blog />} /> */}
 
             </Routes>

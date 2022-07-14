@@ -8,9 +8,22 @@ h1 {
     text-align: center;
 }
 
+@media (max-width: 1075px) {
+    .projects {
+        grid-template-rows: repeat(2, 200fr);
+        grid-template-columns: repeat(2, 200fr);
+    }
+
+    .projectCard {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+
 @media (max-width: 780px) {
     .projects {
         grid-template-rows: repeat(3, 200fr);
+        grid-template-columns: repeat(1, 200fr);
     }
 
     .projectCard {

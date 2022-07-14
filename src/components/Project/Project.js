@@ -7,35 +7,18 @@ class Project extends React.Component {
         super(props);
     }
 
-    // componentDidMount() {
-    //     this.createCards();
-    // }
-
-    // createCards() {
-    //     let cards = document.getElementsByClassName(styles.projectCard);
-
-    //     console.log(cards);
-
-    //     cards.forEach(c => {
-    //         c.addEventListener('hover', function() {
-    //             let tech = document.getElementById('techStack');
-    //             tech.textContent = this.props.tech;
-    //         }, false);
-
-    //     })
-    // }
-
     render() {
         return(
             <div className={styles.projectCard}>
                 <h2>{this.props.name}</h2>
                 <div className={styles.cardLinks}>
-                    <a href={this.props.url} className={styles.projLnk} alt="view project" target="_blank" rel="noreferrer"><button className={styles.github}>GitHub Page</button></a>
-                    <a className={styles.projLnk} alt="view project" target="_blank" rel="noreferrer"><button className={styles.github}>Learn More</button></a>
+                    <a href={this.props.url} className={styles.projLnk} alt="view project's github page" target="_blank" rel="noreferrer"><button className={styles.github}>GitHub Page</button></a>
+                    <a className={styles.projLnk} alt="view project" target="_blank" rel="noreferrer"><button className={styles.github} onClick={() => {window.open(`mailto:codedbyjade@gmail.com?subject=Enquiry%20About:%20${this.props.name}`);}}>Learn More</button></a>
                 </div>
 
                 <p className={styles.projInfo}>{this.props.info}</p>
-                <p id="techStack"></p>
+                <br />
+                <p id="techStack"><strong>Technology Stack:</strong> {this.props.tech}</p>
             </div>
         )
     }

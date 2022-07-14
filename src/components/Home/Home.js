@@ -2,24 +2,20 @@ import React from 'react';
 import styles from './Home.module.css';
 
 /* COMPONENTS */
-import Navbar from '../Navbar/Navbar';
+import Navigation from '../Navigation/Navigation';
 import ContactCard from '../ContactCard/ContactCard';
 import About from '../About/About'
 import Footer from '../Footer/Footer';
 class Home extends React.Component {
 
-    constructor(props) {
-      super(props);
-    }
-
     componentDidMount() {
-      document.title = "Home"
+      document.title = "Jadesola Bejide | Aspiring Machine Learning Engineer"
     }
     
       render() {
         return (
           <>
-            <Navbar links={this.props.links}/>
+            <Navigation links={this.props.links}/>
             
             <main className={styles.home}>
               
