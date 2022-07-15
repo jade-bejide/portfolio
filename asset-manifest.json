@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7cea0afb.css",
-    "main.js": "/portfolio/static/js/main.ccd350a8.js",
+    "main.css": "/portfolio/static/css/main.317b0eaf.css",
+    "main.js": "/portfolio/static/js/main.c4aa68f9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.JPG": "/portfolio/static/media/profile.5d6051f4c9008c004d20.JPG",
     "static/media/Jadesola Bejide Resume.pdf": "/portfolio/static/media/Jadesola Bejide Resume.21f4f59db8397a8a45f2.pdf",
     "static/media/lin.png": "/portfolio/static/media/lin.ab7644f18965cdeea483.png",
     "index.html": "/portfolio/index.html",
-    "main.7cea0afb.css.map": "/portfolio/static/css/main.7cea0afb.css.map",
-    "main.ccd350a8.js.map": "/portfolio/static/js/main.ccd350a8.js.map",
+    "main.317b0eaf.css.map": "/portfolio/static/css/main.317b0eaf.css.map",
+    "main.c4aa68f9.js.map": "/portfolio/static/js/main.c4aa68f9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cea0afb.css",
-    "static/js/main.ccd350a8.js"
+    "static/css/main.317b0eaf.css",
+    "static/js/main.c4aa68f9.js"
   ]
 }
