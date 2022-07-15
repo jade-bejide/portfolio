@@ -1,7 +1,6 @@
 export const projects = [
         {
         title: "Ephm3ralMusic",
-        link: "",
         tech_stack: ["Python", "FastAPI", "MySQL", "JavaScript", "ReactJS", "FetchAPI"],
         descr: "A social media app which recommends new music to users, based on who they follow, to expand their music taste."
     },

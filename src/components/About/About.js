@@ -11,12 +11,12 @@ class About extends React.Component {
 
     render() {
         return (
-            <div className={styles.info}>
+            <main className={styles.info}>
                 <span className={styles.skills}><h2>Technology Stack: </h2><p>ReactJS, FastAPI / SpringBoot, MySQL</p></span>
                 <br></br>
                 <span className={styles.skills}><h2> Databases: </h2><p>MySQL, MongoDB</p></span>
                 <br />
-                <span className={styles.skills}><h2>Research Interests: </h2><p>Recommendation Systems; Language Models for underrepresented Modern Languages.</p></span>
+                <span className={styles.skills}><h2>Research Interests: </h2><p>Recommendation Systems; Language Models for low-resource modern languages.</p></span>
 
 
                 <h2>About Me</h2>
@@ -26,7 +26,7 @@ class About extends React.Component {
                     <p> Aside from my studies, I'm currently Treasurer of <a href={css} target="_blank" rel="noreferrer" className={styles.extLink}><button className={styles.btn}>CSS Bristol</button></a>.</p>
                     <p> I'm currently looking for 2023 Summer Internships in software development or in research.</p>
                 </div>
-            </div>
+            </main>
         )
     }
 }

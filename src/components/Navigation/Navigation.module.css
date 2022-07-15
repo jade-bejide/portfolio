@@ -69,6 +69,14 @@ nav > h1 {
     .navLink:hover {
         color: #474242;
     }
+
+    .topNav a.icon {
+        color: white;
+    }
+
+    a.icon:hover {
+        color: black;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -79,6 +87,7 @@ nav > h1 {
     .responsive {
         color: black;
     }
+
     .topNav a.icon {
         float: right;
         display: block;
@@ -91,8 +100,9 @@ nav > h1 {
 }
 
 @media screen and (max-width: 600px) {
-    .topNav.responsive {
+    .topNav.responsive > .navLink {
         position: relative;
+        text-align: center;
     }
 
    .topNav.responsive a.icon {
@@ -100,24 +110,26 @@ nav > h1 {
         position: absolute;
         right: 0;
         top: 0;
-   }
-
-   .topNav.responsive a.navLink, .topNav.responsive button {
-        float: center;
-        display: block;
+        padding: 15px 15px 15px 0px;
    }
 
    .topNav.responsive .navLinks {
         
-        text-align: center;
+        
         background-color: #d57179;
         margin: 0 auto;
         width: 100%;
         
    }
 
-   .topNav.responsive .navLink {
-        padding-left: 15px;
+   .topNav.responsive .navBtn  {
+        padding-left: 50%;
+        text-align: center;
+   } 
+
+   .topNav.responsive a {
+        float: none;
+        display: block;
    }
 
 

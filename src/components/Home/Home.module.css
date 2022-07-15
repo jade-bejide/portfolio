@@ -5,10 +5,9 @@
     padding-left: 20%;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 970px) {
     .home {
         grid-template-rows: 50% 20% 30%;
-        padding-left: 0%;
-    }
-    
+        padding-left: 20px;
+    }   
 }

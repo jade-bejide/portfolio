@@ -14,7 +14,7 @@ class Home extends React.Component {
     
       render() {
         return (
-          <>
+          <div>
             <Navigation links={this.props.links}/>
             
             <main className={styles.home}>
@@ -24,7 +24,7 @@ class Home extends React.Component {
               
             </main>
             <Footer />
-          </>
+          </div>
 
         )
         

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import resume from '../../resources/Jadesola Bejide Resume.pdf';
 import styles from './Navigation.module.css';
-import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class Navigation extends React.Component {
 
@@ -18,7 +17,7 @@ class Navigation extends React.Component {
 
     collapseNav() {
         var x = document.getElementById("topNavi");
-        if (this.state.collapsed == false) {
+        if (this.state.collapsed === false) {
             this.setState({collapsed: true});
             
             x.classList.add(styles.responsive);
@@ -41,7 +40,7 @@ class Navigation extends React.Component {
                             {/* <a href={this.props.links.blog}><button>Blog</button></a> */}
                             <Link to='/' replace className={styles.navLink}><button className={styles.navBtn}>Home</button></Link>
                             <Link to='/projects' replace className={styles.navLink}><button className={styles.navBtn}>Projects</button></Link>
-                            <Link to='/' replace className={styles.navLink}><button className={styles.navBtn}>Research</button></Link>
+                            <Link to='/research' replace className={styles.navLink}><button className={styles.navBtn}>Research</button></Link>
                             <a href={resume} target="_blank" rel="noreferrer" className={styles.navLink}><button className={styles.navBtn} alt="Jadesola Bejide's CV">CV</button></a> 
                             <a href={window.location} className={styles.icon} onClick={this.collapseNav}>
                                 <i className="fa fa-bars"></i>
@@ -55,14 +54,3 @@ class Navigation extends React.Component {
 }
 
 export default Navigation;
-
-{/* <nav>
-<h1 className={styles.navTitle}>Jadesola Bejide</h1>
-<div className={styles.navLinks}> */}
-    {/* <a href={this.props.links.blog}><button>Blog</button></a> */}
-//     <Link to='/' replace className={styles.navLink}><button className={styles.navBtn}>Home</button></Link>
-//     <Link to='/projects' replace className={styles.navLink}><button className={styles.navBtn}>Projects</button></Link>
-//     <a href={resume} target="_blank" className={styles.navLink}><button className={styles.navBtn} alt="Jadesola Bejide's CV">CV</button></a> 
-// </div>
-
-// </nav>
