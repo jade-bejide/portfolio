@@ -1,8 +1,16 @@
 export const projects = [
-        {
+    {
+        title: "Dream Journal",
+        link: "https://jadesolabejide.dev/DreamJournal",
+        tech_stack: ["Python", "FastAPI", "JavaScript", "Three.js", "gensim", "nltk"],
+        descr: "(WIP) Uses a Latent Dirirchlet Allocation trained text model to infer the underlying emotion of a dream journal excerpt and generates a 3D model of stereotypical dreams associated with that emotion."
+    },
+
+    {
         title: "Ephm3ralMusic",
+        link: "https://jadesolabejide.dev/Ephm3ralMusic",
         tech_stack: ["Python", "FastAPI", "MySQL", "JavaScript", "ReactJS", "FetchAPI"],
-        descr: "A social media app which recommends new music to users, based on who they follow, to expand their music taste."
+        descr: "(WIP) A social media app which recommends new music to users, based on who they follow, to expand their music taste."
     },
     {
         title: "Conway's Game of Life",
