@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.41e595f6.css",
-    "main.js": "/portfolio/static/js/main.76fcf455.js",
+    "main.js": "/portfolio/static/js/main.c5191376.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile.JPG": "/portfolio/static/media/profile.5d6051f4c9008c004d20.JPG",
+    "static/media/Jadesola Bejide Resume 2023.pdf": "/portfolio/static/media/Jadesola Bejide Resume 2023.0c5debac504fd85a7d03.pdf",
     "static/media/Jadesola Bejide - Intro to Machine Learning.png": "/portfolio/static/media/Jadesola Bejide - Intro to Machine Learning.392a2e7705f39a87661b.png",
-    "static/media/Jadesola Bejide Resume 2023 - Public Facing.pdf": "/portfolio/static/media/Jadesola Bejide Resume 2023 - Public Facing.81c08540617d396736f9.pdf",
     "static/media/lin.png": "/portfolio/static/media/lin.ab7644f18965cdeea483.png",
     "index.html": "/portfolio/index.html",
     "main.41e595f6.css.map": "/portfolio/static/css/main.41e595f6.css.map",
-    "main.76fcf455.js.map": "/portfolio/static/js/main.76fcf455.js.map",
+    "main.c5191376.js.map": "/portfolio/static/js/main.c5191376.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e595f6.css",
-    "static/js/main.76fcf455.js"
+    "static/js/main.c5191376.js"
   ]
 }
