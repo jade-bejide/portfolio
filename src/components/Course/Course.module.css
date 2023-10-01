@@ -20,12 +20,12 @@
     color: white;
 }
 
-.projectCard:hover .github {
+.projectCard:hover .course {
     color: white;
     border: 2px solid white;
 }
 
-.projectCard:hover .github:hover {
+.projectCard:hover .course:hover {
     color: #d54854;
 }
 
@@ -39,11 +39,11 @@
 
 .projectCard > h2 {
     grid-row: 1 / 2;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .projectCard > h2:hover {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .projInfo {
@@ -52,7 +52,7 @@
     margin: 5px;
 } 
 
-.github {
+.course {
     all: unset;
     color: black;
     border: 2px solid black;
@@ -60,7 +60,9 @@
     padding: 5px;
 }
 
-.github:hover {
+
+
+.course:hover {
     color: #d54854;
 }
 
@@ -73,7 +75,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .github{
+    .course{
         all: unset;
         color: white;
         border: 2px solid white;
@@ -81,7 +83,7 @@
         padding: 5px;
     }
     
-    .github:hover {
+    .course:hover {
         color: #d54854;
     }
 
@@ -105,7 +107,7 @@
         font-size: 15px;
     }
 
-    .github {
+    .course {
         font-size: 15px;
     }
 

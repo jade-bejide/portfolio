@@ -14,7 +14,7 @@ class ContactCard extends React.Component {
             <section>
                 <img src={profile} id={styles.profileImg} alt="My Headshot"/>
                 <h2>Jadesola Bejide</h2>
-                <div>Aspiring Fullstack Developer and Machine Learning Engineer</div> 
+                <div>Aspiring Machine Learning Engineer and Fullstack Developer</div> 
                 <span className={styles.contacts}>
                     <a href="http://www.github.com/jade-bejide" target="_blank" rel="noreferrer"><img src={github}  alt="GitHub" /></a>
                     <a href="mailto:codedbyjade@gmail.com" target="_blank" rel="noreferrer" ><img src={email} alt="Email Me"/></a>

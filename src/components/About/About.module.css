@@ -9,6 +9,7 @@
 .descr p {
     display: inline;
     font-size: 18px;
+
 }
 
 span.skills > h2, span.skills > p{
@@ -73,6 +74,5 @@ span.skills > h2, span.skills > p{
     div > p {
         display: inline;
     }
-
 
 }

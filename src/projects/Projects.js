@@ -23,7 +23,7 @@ class Projects extends React.Component {
         let cards = [];
 
         projects.forEach(r => {
-            cards.push(<Project name={r.title} url={r.link} info={r.descr} tech={r.tech_stack.join(", ")} className={styles.projectCard}/>);
+            cards.push(<Project name={r.title} github={r.github} url={r.link} info={r.descr} tech={r.tech_stack.join(", ")} className={styles.projectCard}/>);
         });
 
         const container = document.getElementById('container');

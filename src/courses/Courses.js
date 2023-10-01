@@ -2,25 +2,29 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
-import ResearchProject from '../components/ResearchProject/ResearchProject';
+import Course from '../components/Course/Course';
 
-import { projects } from '../resources/researchdata.js';
+import { courses } from '../resources/courses.js';
 
 
-import styles from './Research.module.css';
+import styles from './Courses.module.css';
 
-class Research extends React.Component {
+class Courses extends React.Component {
 
     componentDidMount() {
-        document.title = "Academia | Jadesola Bejide";
-        this.fillProjects();
+        document.title = "Honours | Jadesola Bejide";
+        this.fillCourses();
     }
 
-    fillProjects() {
+    fillCourses() {
         let cards = [];
 
-        projects.forEach(r => {
-            cards.push(<ResearchProject name={r.title} url={r.link} code={r.code} info={r.descr} topics={r.topics.join(", ")}  className={styles.projectCard} />); 
+        courses
+        .sort((a, b) => a.link.localeCompare(b.link))
+        .sort((a, b) => a.status.localeCompare(b.status))
+        
+        .forEach(r => {
+            cards.push(<Course name={r.title} url={r.link} status={r.status} info={r.descr} className={styles.projectCard} />); 
         });
 
         const container = document.getElementById('container');
@@ -34,7 +38,7 @@ class Research extends React.Component {
         return(
             <div className={styles.container}>
                 <Navigation links={this.props.links} />
-                <h1>Research Projects, Essays and Reports</h1>
+                <h1>Honours</h1>
                 <main id="container" className={styles.projects}>
 
                 </main>
@@ -45,4 +49,4 @@ class Research extends React.Component {
     }
 }
 
-export default Research;
+export default Courses;

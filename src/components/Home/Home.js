@@ -8,9 +8,14 @@ import About from '../About/About'
 import Footer from '../Footer/Footer';
 class Home extends React.Component {
 
+  constructor(props) {
+    super(props);
+  }
+
     componentDidMount() {
-      document.title = "Jadesola Bejide | Aspiring Machine Learning Engineer"
+      document.title = "Jadesola Bejide | Aspiring Machine Learning Engineer";
     }
+
     
       render() {
         return (

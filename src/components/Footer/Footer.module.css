@@ -7,6 +7,9 @@ footer {
 }
 
 @media (max-width: 780px) {
-    footer { padding-top: 20px;
+    footer { 
+        
+        padding-top: 175px;
+
      }
 }
