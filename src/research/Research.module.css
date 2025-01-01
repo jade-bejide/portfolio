@@ -20,7 +20,7 @@ h1 {
     }
 }
 
-@media (max-width: 802px) {
+@media (max-width: 780px) {
     .projects {
         grid-template-rows: repeat(3, 200fr);
         grid-template-columns: repeat(1, 200fr);

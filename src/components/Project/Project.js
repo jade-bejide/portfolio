@@ -18,7 +18,9 @@ class Project extends React.Component {
             <div className={styles.projectCard}>
                 <h2>{this.props.name}</h2>
                 <div className={styles.cardLinks}>
-                    <a href={this.props.url} className={styles.projLnk} alt="view project's github page" target="_blank" rel="noreferrer"><button className={styles.github}>{this.getButtonName()}</button></a>
+                    
+                    {(this.props.url !== "") ? <a href={this.props.url} className={styles.projLnk} alt="view project's github page" target="_blank" rel="noreferrer"><button className={styles.github}>{this.getButtonName()}</button></a> : <span></span>}
+                    
                     <a className={styles.projLnk} alt="view project" target="_blank" rel="noreferrer"><button className={styles.github} onClick={() => {window.open(`mailto:codedbyjade@gmail.com?subject=Enquiry%20About:%20${this.props.name}`);}}>Learn More</button></a>
                 </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
+import resume from '../../resources/jadesola_bejide_resume.pdf';
 import { Link } from 'react-router-dom';
-import resume from '../../resources/Jadesola Bejide Resume 2023.pdf';
 import styles from './Navigation.module.css';
 
 class Navigation extends React.Component {
@@ -40,9 +40,8 @@ class Navigation extends React.Component {
                         <div className={styles.navLinks}>
                             {/* <a href={this.props.links.blog}><button>Blog</button></a> */}
                             <Link to='/' replace className={styles.navLink}><button className={styles.navBtn}>Home</button></Link>
-                            <Link to='/honours' replace className={styles.navLink}><button className={styles.navBtn}>Honours</button></Link>
+                            <Link to='/research' replace className={styles.navLink}><button className={styles.navBtn}>Research</button></Link>
                             <Link to='/projects' replace className={styles.navLink}><button className={styles.navBtn}>Projects</button></Link>
-                            {/* <Link to='/research' replace className={styles.navLink}><button className={styles.navBtn}>Academia</button></Link> */}
                             <a href={resume} target="_blank" rel="noreferrer" className={styles.navLink}><button className={styles.navBtn} alt="Jadesola Bejide's CV">CV</button></a> 
                             <a href={window.location} className={styles.icon} onClick={this.collapseNav}>
                                 <i className="fa fa-bars"></i>

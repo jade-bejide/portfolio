@@ -20,7 +20,7 @@ class Research extends React.Component {
         let cards = [];
 
         projects.forEach(r => {
-            cards.push(<ResearchProject name={r.title} url={r.link} code={r.code} info={r.descr} topics={r.topics.join(", ")}  className={styles.projectCard} />); 
+            cards.push(<ResearchProject name={r.title} url={r.link} grade={r.grade} type={r.type} code={r.code} info={r.descr} topics={r.topics.join(", ")}  className={styles.projectCard} />); 
         });
 
         const container = document.getElementById('container');
@@ -34,7 +34,7 @@ class Research extends React.Component {
         return(
             <div className={styles.container}>
                 <Navigation links={this.props.links} />
-                <h1>Research Projects, Essays and Reports</h1>
+                <h1>Research Projects</h1>
                 <main id="container" className={styles.projects}>
 
                 </main>

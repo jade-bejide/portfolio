@@ -1,23 +1,36 @@
+import thesis from './bullock_sayama_2023_replication.pdf';
+
 export const projects = [
     {
-        title: "De Castlejau's Algorithm and the beauty of Animation mathematics",
-        link: "https://tomrocksmaths.files.wordpress.com/2021/05/de-casteljaus-algorithm.pdf",
-        descr: `Maths essay submitted to the Tom Rocks Maths Challenge 2021 about de Casteljau's
-         algorithm and how it is used to create more realistic animations`,
-        code: "https://github.com/jade-bejide/deCasteljau",
-        topics: ["Numerical Analysis", "Animation"]
+        title: "Link Recommendation Algorithms",
+        code: "https://github.com/jade-bejide/link-recommendation-algorithms",
+        link: "",
+        descr: `A range of link recommendation algorithms implemented in Python.`,
+        type: "Research Code",
+        topics: ["Recommendation Algorithms", "Social Networks", "Social Impact Theory", "Simulation"]
     },
     {
-        title: "To What Extent Do Recommendation Systems Benefit a Business?",
-        descr: `An EPQ dissertation which explores how recommendation systems work, the economic 
-        benefit for businesses and the psychological, social and political impact they have on modern society.`,
-        topics: ["Recommendation Systems", "Data Privacy"]
+        title: "Weighted Directed Assortavity",
+        code: "https://github.com/jade-bejide/wdnet-python",
+        link: "",
+        descr: `Weighted Directed Assorativity as described by Yuan et al (2021) implemented in Python.`,
+        type: "Research Code",
+        topics: ["Weighted Networks", "Assortativity"]
+    },
+    {
+        title: "Heterogeneous Adaptive Social Network Model",
+        code: "",
+        link: thesis,
+        descr: `Replication of Bullock and Sayama's (2023) Heterogeneous Adaptive Social Network Model. This work formed the foundation of my undergraduate thesis.`,
+        type: "Paper Replication",
+        topics: ["Social Networks", "Extremism", "Multi-agent systems"]
     }
 ]
 
 // {
-//     title: "Demo",
-//     link: "../resources/Jadesola Bejide Resume.pdf",
-//     descr: "demo",
-//     topics: ["This", "Is", "A", "Demo"]
+//     title: "",
+//     grade: "",
+//     link: "",
+//     descr: "",
+//     topics: []
 // }
