@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.19ab4fa1.css",
-    "main.js": "/portfolio/static/js/main.2bba7055.js",
+    "main.css": "/portfolio/static/css/main.c07ed143.css",
+    "main.js": "/portfolio/static/js/main.3b9e51c5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bullock_sayama_2023_replication.pdf": "/portfolio/static/media/bullock_sayama_2023_replication.fb1dd2e7930bcf22951f.pdf",
     "static/media/profile.JPG": "/portfolio/static/media/profile.5d6051f4c9008c004d20.JPG",
+    "static/media/ukis_2026_abstract.pdf": "/portfolio/static/media/ukis_2026_abstract.f7e12c3e7218ed324a24.pdf",
     "static/media/Jadesola Bejide - Intro to Machine Learning.png": "/portfolio/static/media/Jadesola Bejide - Intro to Machine Learning.392a2e7705f39a87661b.png",
     "static/media/jadesola_bejide_resume.pdf": "/portfolio/static/media/jadesola_bejide_resume.2b7cd987071ce35a6d2b.pdf",
     "static/media/lin.png": "/portfolio/static/media/lin.ab7644f18965cdeea483.png",
@@ -12,12 +13,12 @@
     "static/media/medium.svg": "/portfolio/static/media/medium.ce3cf5f2df487d2ba71f1a66498c8267.svg",
     "index.html": "/portfolio/index.html",
     "static/media/substack.svg": "/portfolio/static/media/substack.65c6382cd02cd959749186b5762a8d7c.svg",
-    "main.19ab4fa1.css.map": "/portfolio/static/css/main.19ab4fa1.css.map",
-    "main.2bba7055.js.map": "/portfolio/static/js/main.2bba7055.js.map",
+    "main.c07ed143.css.map": "/portfolio/static/css/main.c07ed143.css.map",
+    "main.3b9e51c5.js.map": "/portfolio/static/js/main.3b9e51c5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ab4fa1.css",
-    "static/js/main.2bba7055.js"
+    "static/css/main.c07ed143.css",
+    "static/js/main.3b9e51c5.js"
   ]
 }
